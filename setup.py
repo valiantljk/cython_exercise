@@ -4,9 +4,14 @@ from Cython.Build import cythonize
 extensions = [
     Extension("primes",
         sources=["primes.pyx"],
-        extra_compile_args=["-std=gnu++11","-std=libc++"],
-       )]
+        extra_compile_args=["-std=c++11"],
+       ),
+    Extension("fib",
+        sources=["fib.pyx"],
+        extra_compile_args=["-std=c++11"],
+       )
+    ]
 setup(
-  ext_modules = cythonize(extensions), 
+  ext_modules = cythonize(extensions,annotate=True), 
 )
 
