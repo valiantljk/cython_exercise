@@ -1,6 +1,6 @@
 ## About
 
-  * This repo is build for exercising cython [with IO codes]
+  * This repo is built for exercising cython [with IO codes]
   * Thanks to [Cython Tutorial](https://cython.readthedocs.io/en/latest/src/tutorial/cython_tutorial.html)
 
 ## How to use on Cori
